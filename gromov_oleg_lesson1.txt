@@ -1,0 +1,46 @@
+romov_o@gromov-oleg-VirtualBox:~$ uname
+
+Linux
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+gromov_o@gromov-oleg-VirtualBox:~$ uname -a
+
+Linux gromov-oleg-VirtualBox 5.13.0-22-generic #22-Ubuntu SMP Fri Nov 5 13:21:36 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+gromov_o@gromov-oleg-VirtualBox:~$ hostnamectl 
+
+ Static hostname: gromov-oleg-VirtualBox
+
+       Icon name: computer-vm
+
+         Chassis: vm
+
+      Machine ID: b8107132500343c897dd7b2abd12b8dd
+
+         Boot ID: 95e9409c3d53451a96ab42d7a1136dc3
+
+  Virtualization: oracle
+
+Operating System: Ubuntu 21.10                    
+
+          Kernel: Linux 5.13.0-22-generic
+
+    Architecture: x86-64
+
+ Hardware Vendor: innotek GmbH
+
+  Hardware Model: VirtualBox
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+
+
+
+
