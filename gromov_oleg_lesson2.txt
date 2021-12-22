@@ -1,0 +1,426 @@
+gromov_o@gromov-oleg-VirtualBox:~$ pwd
+
+/home/gromov_o
+
+gromov_o@gromov-oleg-VirtualBox:~$ mkdir students
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+gromov_o@gromov-oleg-VirtualBox:~$ mkdir mentors
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+gromov_o@gromov-oleg-VirtualBox:~$ cd students/
+
+gromov_o@gromov-oleg-VirtualBox:~/students$ touch students_list.txt
+
+gromov_o@gromov-oleg-VirtualBox:~/students$ nano students_list.txt 
+
+gromov_o@gromov-oleg-VirtualBox:~/students$ 
+
+gromov_o@gromov-oleg-VirtualBox:~/students$ 
+
+gromov_o@gromov-oleg-VirtualBox:~/students$ cat students_list.txt 
+
+Denis Sazonov
+
+Vadim Eremenko
+
+Ivan Ponomarev
+
+Anton Shestakov
+
+Ivan Menshov
+
+Evgeniy Lavrenko
+
+oleg Gromov
+
+gromov_o@gromov-oleg-VirtualBox:~/students$ echo 'Maria Ivanova' >> students_list.txt 
+
+gromov_o@gromov-oleg-VirtualBox:~/students$ 
+
+gromov_o@gromov-oleg-VirtualBox:~/students$ 
+
+gromov_o@gromov-oleg-VirtualBox:~/students$ cat students_list.txt 
+
+Denis Sazonov
+
+Vadim Eremenko
+
+Ivan Ponomarev
+
+Anton Shestakov
+
+Ivan Menshov
+
+Evgeniy Lavrenko
+
+oleg Gromov
+
+Maria Ivanova
+
+gromov_o@gromov-oleg-VirtualBox:~/students$ cd ..
+
+gromov_o@gromov-oleg-VirtualBox:~$ cd ./mentors/
+
+gromov_o@gromov-oleg-VirtualBox:~/mentors$ ls
+
+gromov_o@gromov-oleg-VirtualBox:~/mentors$ touch mentors_list_.txt
+
+gromov_o@gromov-oleg-VirtualBox:~/mentors$ 
+
+gromov_o@gromov-oleg-VirtualBox:~/mentors$ 
+
+gromov_o@gromov-oleg-VirtualBox:~/mentors$ cat mentors_list_.txt 
+
+gromov_o@gromov-oleg-VirtualBox:~/mentors$ 
+
+gromov_o@gromov-oleg-VirtualBox:~/mentors$ echo 'Kirill Ivanov' >> mentors_list_.txt 
+
+gromov_o@gromov-oleg-VirtualBox:~/mentors$ 
+
+gromov_o@gromov-oleg-VirtualBox:~/mentors$ cat mentors_list_.txt 
+
+Kirill Ivanov
+
+gromov_o@gromov-oleg-VirtualBox:~/mentors$ nano mentors_list_.txt 
+
+gromov_o@gromov-oleg-VirtualBox:~/mentors$ 
+
+gromov_o@gromov-oleg-VirtualBox:~/mentors$ 
+
+gromov_o@gromov-oleg-VirtualBox:~/mentors$ 
+
+gromov_o@gromov-oleg-VirtualBox:~/mentors$ cat mentors_list_.txt 
+
+Kirill Ivanov
+
+Elena Fedotova
+
+gromov_o@gromov-oleg-VirtualBox:~/mentors$ mv mentors_list_.txt ~/students/mentors_list.txt
+
+gromov_o@gromov-oleg-VirtualBox:~/mentors$ 
+
+gromov_o@gromov-oleg-VirtualBox:~/mentors$ ls ~/students/
+
+mentors_list.txt  students_list.txt
+
+gromov_o@gromov-oleg-VirtualBox:~/mentors$ 
+
+gromov_o@gromov-oleg-VirtualBox:~/mentors$ 
+
+gromov_o@gromov-oleg-VirtualBox:~/mentors$ cd ..
+
+gromov_o@gromov-oleg-VirtualBox:~$ rm ./mentors/
+
+rm: невозможно удалить './mentors/': Это каталог
+
+gromov_o@gromov-oleg-VirtualBox:~$ rm ./mentors/ -r
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+gromov_o@gromov-oleg-VirtualBox:~$ ls
+
+ students   Видео   Документы   Загрузки   Изображения   Музыка   Общедоступные  'Рабочий стол'   Шаблоны
+
+gromov_o@gromov-oleg-VirtualBox:~$ tree
+
+Команда «tree» не найдена, но может быть установлена с помощью:
+
+sudo apt install tree
+
+gromov_o@gromov-oleg-VirtualBox:~$ sudo apt install tree
+
+[sudo] пароль для gromov_o: 
+
+Чтение списков пакетов… Готово
+
+Построение дерева зависимостей… Готово
+
+Чтение информации о состоянии… Готово         
+
+Следующие НОВЫЕ пакеты будут установлены:
+
+  tree
+
+Обновлено 0 пакетов, установлено 1 новых пакетов, для удаления отмечено 0 пакетов, и 0 пакетов не обновлено.
+
+Необходимо скачать 43,0 kB архивов.
+
+После данной операции объём занятого дискового пространства возрастёт на 115 kB.
+
+Пол:1 http://ru.archive.ubuntu.com/ubuntu impish/universe amd64 tree amd64 1.8.0-1 [43,0 kB]
+
+Получено 43,0 kB за 1с (54,8 kB/s)        
+
+Выбор ранее не выбранного пакета tree.
+
+(Чтение базы данных … на данный момент установлен 171451 файл и каталог.)
+
+Подготовка к распаковке …/tree_1.8.0-1_amd64.deb …
+
+Распаковывается tree (1.8.0-1) …
+
+Настраивается пакет tree (1.8.0-1) …
+
+Обрабатываются триггеры для man-db (2.9.4-2) …
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+gromov_o@gromov-oleg-VirtualBox:~$ tree
+
+.
+
+├── students
+
+│   ├── mentors_list.txt
+
+│   └── students_list.txt
+
+├── Видео
+
+├── Документы
+
+├── Загрузки
+
+├── Изображения
+
+├── Музыка
+
+├── Общедоступные
+
+├── Рабочий стол
+
+└── Шаблоны
+
+
+
+9 directories, 2 files
+
+gromov_o@gromov-oleg-VirtualBox:~$ mv ./students/ ./students_and_mentors/
+
+gromov_o@gromov-oleg-VirtualBox:~$ tree
+
+.
+
+├── students_and_mentors
+
+│   ├── mentors_list.txt
+
+│   └── students_list.txt
+
+├── Видео
+
+├── Документы
+
+├── Загрузки
+
+├── Изображения
+
+├── Музыка
+
+├── Общедоступные
+
+├── Рабочий стол
+
+└── Шаблоны
+
+
+
+9 directories, 2 files
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+gromov_o@gromov-oleg-VirtualBox:~$ rm ./students_and_mentors/ -r
+
+gromov_o@gromov-oleg-VirtualBox:~$ tree
+
+.
+
+├── Видео
+
+├── Документы
+
+├── Загрузки
+
+├── Изображения
+
+├── Музыка
+
+├── Общедоступные
+
+├── Рабочий стол
+
+└── Шаблоны
+
+
+
+8 directories, 0 files
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+gromov_o@gromov-oleg-VirtualBox:~$ hostname -I
+
+192.168.1.128 
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+gromov_o@gromov-oleg-VirtualBox:~$ netstat -na | grep 0.0.0.0:22
+
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN     
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+gromov_o@gromov-oleg-VirtualBox:~$ netstat -na | grep 192.168.1.128:22
+
+tcp        0      0 192.168.1.128:22        192.168.1.83:2385       ESTABLISHED
+
+gromov_o@gromov-oleg-VirtualBox:~$ 
+
+
+########### для проверки работы подключения по SSH, с использованием ключей, была создана ещё одна виртуальная машина.
+
+
+
+
+topor@topor-VirtualBox:~$ ssh-keygen 
+
+Generating public/private rsa key pair.
+
+Enter file in which to save the key (/home/topor/.ssh/id_rsa): 
+
+Created directory '/home/topor/.ssh'.
+
+Enter passphrase (empty for no passphrase): 
+
+Enter same passphrase again: 
+
+Your identification has been saved in /home/topor/.ssh/id_rsa
+
+Your public key has been saved in /home/topor/.ssh/id_rsa.pub
+
+The key fingerprint is:
+
+SHA256:2eHWsfd83jo/W+zyWsz7pWqXIIE4073XH0KjwkHv2hc topor@topor-VirtualBox
+
+The key's randomart image is:
+
++---[RSA 3072]----+
+
+|                 |
+
+|         .       |
+
+|       o.oo .    |
+
+|      + o=o+ =   |
+
+|       oS *o=.o  |
+
+|         +oooE.B |
+
+|          +o .oo%|
+
+|         . ...=*B|
+
+|           .oo+X@|
+
++----[SHA256]-----+
+
+topor@topor-VirtualBox:~$ 
+
+topor@topor-VirtualBox:~$ ssh
+
+ssh          ssh-agent    ssh-copy-id  ssh-keyscan  
+
+ssh-add      ssh-argv0    ssh-keygen   
+
+topor@topor-VirtualBox:~$ ssh
+
+ssh          ssh-agent    ssh-copy-id  ssh-keyscan  
+
+ssh-add      ssh-argv0    ssh-keygen   
+
+topor@topor-VirtualBox:~$ ssh-copy-id gromov_o@192.168.1.22
+
+The authenticity of host '192.168.1.22 (192.168.1.22)' can't be established.
+
+ECDSA key fingerprint is SHA256:R0RJE5+f1ZT439sDnGvl1TCs0v83VpT1SIDVwl8zfpo.
+
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+
+gromov_o@192.168.1.22's password: 
+
+
+
+Number of key(s) added: 1
+
+
+
+Now try logging into the machine, with:   "ssh 'gromov_o@192.168.1.22'"
+
+and check to make sure that only the key(s) you wanted were added.
+
+
+
+topor@topor-VirtualBox:~$ ssh gromov_o@192.168.1.22
+
+Welcome to Ubuntu 21.10 (GNU/Linux 5.13.0-22-generic x86_64)
+
+
+
+ * Documentation:  https://help.ubuntu.com
+
+ * Management:     https://landscape.canonical.com
+
+ * Support:        https://ubuntu.com/advantage
+
+
+
+83 обновления может быть применено немедленно.
+
+37 из этих обновлений, являются стандартными обновлениями безопасности.
+
+Чтобы просмотреть дополнительные обновления выполните: apt list --upgradable
+
+
+
+*** System restart required ***
+
+Last login: Sat Dec 18 22:02:22 2021 from 192.168.1.83
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+
+
+
+
+
+

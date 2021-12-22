@@ -1,0 +1,1640 @@
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ cat /etc/passwd
+
+root:x:0:0:root:/root:/bin/bash
+
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+
+sync:x:4:65534:sync:/bin:/bin/sync
+
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+
+systemd-timesync:x:102:104:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+
+messagebus:x:103:106::/nonexistent:/usr/sbin/nologin
+
+syslog:x:104:111::/home/syslog:/usr/sbin/nologin
+
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+
+tss:x:106:112:TPM software stack,,,:/var/lib/tpm:/bin/false
+
+uuidd:x:107:115::/run/uuidd:/usr/sbin/nologin
+
+tcpdump:x:108:116::/nonexistent:/usr/sbin/nologin
+
+avahi-autoipd:x:109:118:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+
+usbmux:x:110:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+
+rtkit:x:111:119:RealtimeKit,,,:/proc:/usr/sbin/nologin
+
+dnsmasq:x:112:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+
+kernoops:x:113:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+
+avahi:x:114:121:Avahi mDNS daemon,,,:/run/avahi-daemon:/usr/sbin/nologin
+
+cups-pk-helper:x:115:122:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+
+whoopsie:x:116:123::/nonexistent:/bin/false
+
+sssd:x:117:124:SSSD system user,,,:/var/lib/sss:/usr/sbin/nologin
+
+speech-dispatcher:x:118:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+
+nm-openvpn:x:119:125:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+
+saned:x:120:127::/var/lib/saned:/usr/sbin/nologin
+
+colord:x:121:128:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+
+geoclue:x:122:129::/var/lib/geoclue:/usr/sbin/nologin
+
+pulse:x:123:130:PulseAudio daemon,,,:/run/pulse:/usr/sbin/nologin
+
+gnome-initial-setup:x:124:65534::/run/gnome-initial-setup/:/bin/false
+
+hplip:x:125:7:HPLIP system user,,,:/run/hplip:/bin/false
+
+gdm:x:126:132:Gnome Display Manager:/var/lib/gdm3:/bin/false
+
+gromov_o:x:1000:1000:gromov_o,,,:/home/gromov_o:/bin/bash
+
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+
+sshd:x:127:65534::/run/sshd:/usr/sbin/nologin
+
+vboxadd:x:998:1::/var/run/vboxadd:/bin/false
+
+test_user:x:1001:1001:test,,,:/home/test_user:/bin/bash
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ cat /etc/gro
+
+groff/  group   group-  
+
+gromov_o@gromov-o-VirtualBox:~$ cat /etc/group
+
+root:x:0:
+
+daemon:x:1:
+
+bin:x:2:
+
+sys:x:3:
+
+adm:x:4:syslog,gromov_o
+
+tty:x:5:
+
+disk:x:6:
+
+lp:x:7:
+
+mail:x:8:
+
+news:x:9:
+
+uucp:x:10:
+
+man:x:12:
+
+proxy:x:13:
+
+kmem:x:15:
+
+dialout:x:20:
+
+fax:x:21:
+
+voice:x:22:
+
+cdrom:x:24:gromov_o
+
+floppy:x:25:
+
+tape:x:26:
+
+sudo:x:27:gromov_o
+
+audio:x:29:pulse
+
+dip:x:30:gromov_o
+
+www-data:x:33:
+
+backup:x:34:
+
+operator:x:37:
+
+list:x:38:
+
+irc:x:39:
+
+src:x:40:
+
+gnats:x:41:
+
+shadow:x:42:
+
+utmp:x:43:
+
+video:x:44:
+
+sasl:x:45:
+
+plugdev:x:46:gromov_o
+
+staff:x:50:
+
+games:x:60:
+
+users:x:100:
+
+nogroup:x:65534:
+
+systemd-journal:x:101:
+
+systemd-network:x:102:
+
+systemd-resolve:x:103:
+
+systemd-timesync:x:104:
+
+crontab:x:105:
+
+messagebus:x:106:
+
+input:x:107:
+
+sgx:x:108:
+
+kvm:x:109:
+
+render:x:110:
+
+syslog:x:111:
+
+tss:x:112:
+
+bluetooth:x:113:
+
+ssl-cert:x:114:
+
+uuidd:x:115:
+
+tcpdump:x:116:
+
+_ssh:x:117:
+
+avahi-autoipd:x:118:
+
+rtkit:x:119:
+
+netdev:x:120:
+
+avahi:x:121:
+
+lpadmin:x:122:gromov_o
+
+whoopsie:x:123:
+
+sssd:x:124:
+
+nm-openvpn:x:125:
+
+scanner:x:126:saned
+
+saned:x:127:
+
+colord:x:128:
+
+geoclue:x:129:
+
+pulse:x:130:
+
+pulse-access:x:131:
+
+gdm:x:132:
+
+lxd:x:133:gromov_o
+
+gromov_o:x:1000:
+
+sambashare:x:134:gromov_o
+
+systemd-coredump:x:999:
+
+vboxsf:x:998:
+
+test_user:x:1001:
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ sudo useradd new_user
+
+[sudo] пароль для gromov_o: 
+
+gromov_o@gromov-o-VirtualBox:~$ cat /etc/passwd
+
+root:x:0:0:root:/root:/bin/bash
+
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+
+sync:x:4:65534:sync:/bin:/bin/sync
+
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+
+systemd-timesync:x:102:104:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+
+messagebus:x:103:106::/nonexistent:/usr/sbin/nologin
+
+syslog:x:104:111::/home/syslog:/usr/sbin/nologin
+
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+
+tss:x:106:112:TPM software stack,,,:/var/lib/tpm:/bin/false
+
+uuidd:x:107:115::/run/uuidd:/usr/sbin/nologin
+
+tcpdump:x:108:116::/nonexistent:/usr/sbin/nologin
+
+avahi-autoipd:x:109:118:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+
+usbmux:x:110:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+
+rtkit:x:111:119:RealtimeKit,,,:/proc:/usr/sbin/nologin
+
+dnsmasq:x:112:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+
+kernoops:x:113:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+
+avahi:x:114:121:Avahi mDNS daemon,,,:/run/avahi-daemon:/usr/sbin/nologin
+
+cups-pk-helper:x:115:122:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+
+whoopsie:x:116:123::/nonexistent:/bin/false
+
+sssd:x:117:124:SSSD system user,,,:/var/lib/sss:/usr/sbin/nologin
+
+speech-dispatcher:x:118:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+
+nm-openvpn:x:119:125:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+
+saned:x:120:127::/var/lib/saned:/usr/sbin/nologin
+
+colord:x:121:128:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+
+geoclue:x:122:129::/var/lib/geoclue:/usr/sbin/nologin
+
+pulse:x:123:130:PulseAudio daemon,,,:/run/pulse:/usr/sbin/nologin
+
+gnome-initial-setup:x:124:65534::/run/gnome-initial-setup/:/bin/false
+
+hplip:x:125:7:HPLIP system user,,,:/run/hplip:/bin/false
+
+gdm:x:126:132:Gnome Display Manager:/var/lib/gdm3:/bin/false
+
+gromov_o:x:1000:1000:gromov_o,,,:/home/gromov_o:/bin/bash
+
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+
+sshd:x:127:65534::/run/sshd:/usr/sbin/nologin
+
+vboxadd:x:998:1::/var/run/vboxadd:/bin/false
+
+test_user:x:1001:1001:test,,,:/home/test_user:/bin/bash
+
+new_user:x:1002:1002::/home/new_user:/bin/sh
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ cat /etc/group
+
+root:x:0:
+
+daemon:x:1:
+
+bin:x:2:
+
+sys:x:3:
+
+adm:x:4:syslog,gromov_o
+
+tty:x:5:
+
+disk:x:6:
+
+lp:x:7:
+
+mail:x:8:
+
+news:x:9:
+
+uucp:x:10:
+
+man:x:12:
+
+proxy:x:13:
+
+kmem:x:15:
+
+dialout:x:20:
+
+fax:x:21:
+
+voice:x:22:
+
+cdrom:x:24:gromov_o
+
+floppy:x:25:
+
+tape:x:26:
+
+sudo:x:27:gromov_o
+
+audio:x:29:pulse
+
+dip:x:30:gromov_o
+
+www-data:x:33:
+
+backup:x:34:
+
+operator:x:37:
+
+list:x:38:
+
+irc:x:39:
+
+src:x:40:
+
+gnats:x:41:
+
+shadow:x:42:
+
+utmp:x:43:
+
+video:x:44:
+
+sasl:x:45:
+
+plugdev:x:46:gromov_o
+
+staff:x:50:
+
+games:x:60:
+
+users:x:100:
+
+nogroup:x:65534:
+
+systemd-journal:x:101:
+
+systemd-network:x:102:
+
+systemd-resolve:x:103:
+
+systemd-timesync:x:104:
+
+crontab:x:105:
+
+messagebus:x:106:
+
+input:x:107:
+
+sgx:x:108:
+
+kvm:x:109:
+
+render:x:110:
+
+syslog:x:111:
+
+tss:x:112:
+
+bluetooth:x:113:
+
+ssl-cert:x:114:
+
+uuidd:x:115:
+
+tcpdump:x:116:
+
+_ssh:x:117:
+
+avahi-autoipd:x:118:
+
+rtkit:x:119:
+
+netdev:x:120:
+
+avahi:x:121:
+
+lpadmin:x:122:gromov_o
+
+whoopsie:x:123:
+
+sssd:x:124:
+
+nm-openvpn:x:125:
+
+scanner:x:126:saned
+
+saned:x:127:
+
+colord:x:128:
+
+geoclue:x:129:
+
+pulse:x:130:
+
+pulse-access:x:131:
+
+gdm:x:132:
+
+lxd:x:133:gromov_o
+
+gromov_o:x:1000:
+
+sambashare:x:134:gromov_o
+
+systemd-coredump:x:999:
+
+vboxsf:x:998:
+
+test_user:x:1001:
+
+new_user:x:1002:
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ sudo passwd new_user
+
+Новый пароль : 
+
+Повторите ввод нового пароля : 
+
+passwd: пароль успешно обновлён
+
+gromov_o@gromov-o-VirtualBox:~$ su new_user
+
+Пароль: 
+
+$ whoami
+
+new_user
+
+$ 
+
+$ exit
+
+gromov_o@gromov-o-VirtualBox:~$ sudo userdel -r new_user
+
+userdel: почтовый ящик new_user (/var/mail/new_user) не найден
+
+userdel: домашний каталог пользователя new_user (/home/new_user) не найден
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ cat /etc/passwd
+
+root:x:0:0:root:/root:/bin/bash
+
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+
+sync:x:4:65534:sync:/bin:/bin/sync
+
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+
+systemd-timesync:x:102:104:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+
+messagebus:x:103:106::/nonexistent:/usr/sbin/nologin
+
+syslog:x:104:111::/home/syslog:/usr/sbin/nologin
+
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+
+tss:x:106:112:TPM software stack,,,:/var/lib/tpm:/bin/false
+
+uuidd:x:107:115::/run/uuidd:/usr/sbin/nologin
+
+tcpdump:x:108:116::/nonexistent:/usr/sbin/nologin
+
+avahi-autoipd:x:109:118:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+
+usbmux:x:110:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+
+rtkit:x:111:119:RealtimeKit,,,:/proc:/usr/sbin/nologin
+
+dnsmasq:x:112:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+
+kernoops:x:113:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+
+avahi:x:114:121:Avahi mDNS daemon,,,:/run/avahi-daemon:/usr/sbin/nologin
+
+cups-pk-helper:x:115:122:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+
+whoopsie:x:116:123::/nonexistent:/bin/false
+
+sssd:x:117:124:SSSD system user,,,:/var/lib/sss:/usr/sbin/nologin
+
+speech-dispatcher:x:118:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+
+nm-openvpn:x:119:125:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+
+saned:x:120:127::/var/lib/saned:/usr/sbin/nologin
+
+colord:x:121:128:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+
+geoclue:x:122:129::/var/lib/geoclue:/usr/sbin/nologin
+
+pulse:x:123:130:PulseAudio daemon,,,:/run/pulse:/usr/sbin/nologin
+
+gnome-initial-setup:x:124:65534::/run/gnome-initial-setup/:/bin/false
+
+hplip:x:125:7:HPLIP system user,,,:/run/hplip:/bin/false
+
+gdm:x:126:132:Gnome Display Manager:/var/lib/gdm3:/bin/false
+
+gromov_o:x:1000:1000:gromov_o,,,:/home/gromov_o:/bin/bash
+
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+
+sshd:x:127:65534::/run/sshd:/usr/sbin/nologin
+
+vboxadd:x:998:1::/var/run/vboxadd:/bin/false
+
+test_user:x:1001:1001:test,,,:/home/test_user:/bin/bash
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ cat /etc/group
+
+root:x:0:
+
+daemon:x:1:
+
+bin:x:2:
+
+sys:x:3:
+
+adm:x:4:syslog,gromov_o
+
+tty:x:5:
+
+disk:x:6:
+
+lp:x:7:
+
+mail:x:8:
+
+news:x:9:
+
+uucp:x:10:
+
+man:x:12:
+
+proxy:x:13:
+
+kmem:x:15:
+
+dialout:x:20:
+
+fax:x:21:
+
+voice:x:22:
+
+cdrom:x:24:gromov_o
+
+floppy:x:25:
+
+tape:x:26:
+
+sudo:x:27:gromov_o
+
+audio:x:29:pulse
+
+dip:x:30:gromov_o
+
+www-data:x:33:
+
+backup:x:34:
+
+operator:x:37:
+
+list:x:38:
+
+irc:x:39:
+
+src:x:40:
+
+gnats:x:41:
+
+shadow:x:42:
+
+utmp:x:43:
+
+video:x:44:
+
+sasl:x:45:
+
+plugdev:x:46:gromov_o
+
+staff:x:50:
+
+games:x:60:
+
+users:x:100:
+
+nogroup:x:65534:
+
+systemd-journal:x:101:
+
+systemd-network:x:102:
+
+systemd-resolve:x:103:
+
+systemd-timesync:x:104:
+
+crontab:x:105:
+
+messagebus:x:106:
+
+input:x:107:
+
+sgx:x:108:
+
+kvm:x:109:
+
+render:x:110:
+
+syslog:x:111:
+
+tss:x:112:
+
+bluetooth:x:113:
+
+ssl-cert:x:114:
+
+uuidd:x:115:
+
+tcpdump:x:116:
+
+_ssh:x:117:
+
+avahi-autoipd:x:118:
+
+rtkit:x:119:
+
+netdev:x:120:
+
+avahi:x:121:
+
+lpadmin:x:122:gromov_o
+
+whoopsie:x:123:
+
+sssd:x:124:
+
+nm-openvpn:x:125:
+
+scanner:x:126:saned
+
+saned:x:127:
+
+colord:x:128:
+
+geoclue:x:129:
+
+pulse:x:130:
+
+pulse-access:x:131:
+
+gdm:x:132:
+
+lxd:x:133:gromov_o
+
+gromov_o:x:1000:
+
+sambashare:x:134:gromov_o
+
+systemd-coredump:x:999:
+
+vboxsf:x:998:
+
+test_user:x:1001:
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+romov_o@gromov-o-VirtualBox:~$ sudo addgroup new_group
+
+Добавляется группа «new_group» (GID 1002) ...
+
+Готово.
+
+gromov_o@gromov-o-VirtualBox:~$ cat /etc/group
+
+root:x:0:
+
+daemon:x:1:
+
+bin:x:2:
+
+sys:x:3:
+
+adm:x:4:syslog,gromov_o
+
+tty:x:5:
+
+disk:x:6:
+
+lp:x:7:
+
+mail:x:8:
+
+news:x:9:
+
+uucp:x:10:
+
+man:x:12:
+
+proxy:x:13:
+
+kmem:x:15:
+
+dialout:x:20:
+
+fax:x:21:
+
+voice:x:22:
+
+cdrom:x:24:gromov_o
+
+floppy:x:25:
+
+tape:x:26:
+
+sudo:x:27:gromov_o
+
+audio:x:29:pulse
+
+dip:x:30:gromov_o
+
+www-data:x:33:
+
+backup:x:34:
+
+operator:x:37:
+
+list:x:38:
+
+irc:x:39:
+
+src:x:40:
+
+gnats:x:41:
+
+shadow:x:42:
+
+utmp:x:43:
+
+video:x:44:
+
+sasl:x:45:
+
+plugdev:x:46:gromov_o
+
+staff:x:50:
+
+games:x:60:
+
+users:x:100:
+
+nogroup:x:65534:
+
+systemd-journal:x:101:
+
+systemd-network:x:102:
+
+systemd-resolve:x:103:
+
+systemd-timesync:x:104:
+
+crontab:x:105:
+
+messagebus:x:106:
+
+input:x:107:
+
+sgx:x:108:
+
+kvm:x:109:
+
+render:x:110:
+
+syslog:x:111:
+
+tss:x:112:
+
+bluetooth:x:113:
+
+ssl-cert:x:114:
+
+uuidd:x:115:
+
+tcpdump:x:116:
+
+_ssh:x:117:
+
+avahi-autoipd:x:118:
+
+rtkit:x:119:
+
+netdev:x:120:
+
+avahi:x:121:
+
+lpadmin:x:122:gromov_o
+
+whoopsie:x:123:
+
+sssd:x:124:
+
+nm-openvpn:x:125:
+
+scanner:x:126:saned
+
+saned:x:127:
+
+colord:x:128:
+
+geoclue:x:129:
+
+pulse:x:130:
+
+pulse-access:x:131:
+
+gdm:x:132:
+
+lxd:x:133:gromov_o
+
+gromov_o:x:1000:
+
+sambashare:x:134:gromov_o
+
+systemd-coredump:x:999:
+
+vboxsf:x:998:
+
+test_user:x:1001:
+
+new_group:x:1002:
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ group
+
+groupadd   groupdel   groupmems  groupmod   groups     
+
+gromov_o@gromov-o-VirtualBox:~$ groups gromov_o
+
+gromov_o : gromov_o adm cdrom sudo dip plugdev lpadmin lxd sambashare
+
+gromov_o@gromov-o-VirtualBox:~$ sudo usermod -aG new_group gromov_o
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ groups gromov_o
+
+gromov_o : gromov_o adm cdrom sudo dip plugdev lpadmin lxd sambashare new_group
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ sudo deluser gromov_o new_group
+
+Удаляется пользователь «gromov_o» из группы «new_group» ...
+
+Готово.
+
+gromov_o@gromov-o-VirtualBox:~$ groups gromov_o
+
+gromov_o : gromov_o adm cdrom sudo dip plugdev lpadmin lxd sambashare
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ sudo useradd user_1 
+
+gromov_o@gromov-o-VirtualBox:~$ sudo useradd user_2
+
+gromov_o@gromov-o-VirtualBox:~$ sudo useradd user_3
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ groups user_1
+
+user_1 : user_1
+
+gromov_o@gromov-o-VirtualBox:~$ groups user_2
+
+user_2 : user_2
+
+gromov_o@gromov-o-VirtualBox:~$ groups user_3
+
+user_3 : user_3
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ sudo usermod -g new_group user_1
+
+gromov_o@gromov-o-VirtualBox:~$ sudo usermod -g new_group user_2
+
+gromov_o@gromov-o-VirtualBox:~$ sudo usermod -g new_group user_3
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ groups user_1
+
+user_1 : new_group
+
+gromov_o@gromov-o-VirtualBox:~$ groups user_2
+
+user_2 : new_group
+
+gromov_o@gromov-o-VirtualBox:~$ groups user_3
+
+user_3 : new_group
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ sudo userdel -f user_1
+
+userdel: группа user_1 не удалена, так как это не первичная группа пользователя user_1.
+
+gromov_o@gromov-o-VirtualBox:~$ sudo usermod -g user_2 user_2
+
+gromov_o@gromov-o-VirtualBox:~$ sudo usermod -g user_3 user_3
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ groups user_2
+
+user_2 : user_2
+
+gromov_o@gromov-o-VirtualBox:~$ groups user_3
+
+user_3 : user_3
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ sudo userdel -f user_2
+
+gromov_o@gromov-o-VirtualBox:~$ sudo userdel -f user_3
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ sudo groupdel user_1
+
+gromov_o@gromov-o-VirtualBox:~$ cat /etc/group
+
+root:x:0:
+
+daemon:x:1:
+
+bin:x:2:
+
+sys:x:3:
+
+adm:x:4:syslog,gromov_o
+
+tty:x:5:
+
+disk:x:6:
+
+lp:x:7:
+
+mail:x:8:
+
+news:x:9:
+
+uucp:x:10:
+
+man:x:12:
+
+proxy:x:13:
+
+kmem:x:15:
+
+dialout:x:20:
+
+fax:x:21:
+
+voice:x:22:
+
+cdrom:x:24:gromov_o
+
+floppy:x:25:
+
+tape:x:26:
+
+sudo:x:27:gromov_o
+
+audio:x:29:pulse
+
+dip:x:30:gromov_o
+
+www-data:x:33:
+
+backup:x:34:
+
+operator:x:37:
+
+list:x:38:
+
+irc:x:39:
+
+src:x:40:
+
+gnats:x:41:
+
+shadow:x:42:
+
+utmp:x:43:
+
+video:x:44:
+
+sasl:x:45:
+
+plugdev:x:46:gromov_o
+
+staff:x:50:
+
+games:x:60:
+
+users:x:100:
+
+nogroup:x:65534:
+
+systemd-journal:x:101:
+
+systemd-network:x:102:
+
+systemd-resolve:x:103:
+
+systemd-timesync:x:104:
+
+crontab:x:105:
+
+messagebus:x:106:
+
+input:x:107:
+
+sgx:x:108:
+
+kvm:x:109:
+
+render:x:110:
+
+syslog:x:111:
+
+tss:x:112:
+
+bluetooth:x:113:
+
+ssl-cert:x:114:
+
+uuidd:x:115:
+
+tcpdump:x:116:
+
+_ssh:x:117:
+
+avahi-autoipd:x:118:
+
+rtkit:x:119:
+
+netdev:x:120:
+
+avahi:x:121:
+
+lpadmin:x:122:gromov_o
+
+whoopsie:x:123:
+
+sssd:x:124:
+
+nm-openvpn:x:125:
+
+scanner:x:126:saned
+
+saned:x:127:
+
+colord:x:128:
+
+geoclue:x:129:
+
+pulse:x:130:
+
+pulse-access:x:131:
+
+gdm:x:132:
+
+lxd:x:133:gromov_o
+
+gromov_o:x:1000:
+
+sambashare:x:134:gromov_o
+
+systemd-coredump:x:999:
+
+vboxsf:x:998:
+
+test_user:x:1001:
+
+new_group:x:1002:
+
+gromov_o@gromov-o-VirtualBox:~$
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ sudo useradd user_1
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ sudo passwd user_1
+
+Новый пароль : 
+
+Повторите ввод нового пароля : 
+
+passwd: пароль успешно обновлён
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ su user_1
+
+Пароль: 
+
+$ whoami
+
+user_1
+
+$ 
+
+$ 
+
+$ apt-get update
+
+Чтение списков пакетов… Готово
+
+E: Не удалось открыть файл блокировки /var/lib/apt/lists/lock - open (13: Отказано в доступе)
+
+E: Невозможно заблокировать каталог /var/lib/apt/lists/
+
+W: Проблема при удалении файла /var/cache/apt/pkgcache.bin - RemoveCaches (13: Отказано в доступе)
+
+W: Проблема при удалении файла /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Отказано в доступе)
+
+$ sudo apt-get update
+
+[sudo] пароль для user_1: 
+
+user_1 отсутствует в файле sudoers. Данное действие будет занесено в журнал.
+
+$ exit
+
+gromov_o@gromov-o-VirtualBox:~$ sudo usermod -s /bin/bash user_1
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ sudo usermod -aG sudo user_1
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ su user_1
+
+Пароль: 
+
+To run a command as administrator (user "root"), use "sudo <command>".
+
+See "man sudo_root" for details.
+
+
+
+user_1@gromov-o-VirtualBox:/home/gromov_o$ apt-get update
+
+Чтение списков пакетов… Готово
+
+E: Не удалось открыть файл блокировки /var/lib/apt/lists/lock - open (13: Отказано в доступе)
+
+E: Невозможно заблокировать каталог /var/lib/apt/lists/
+
+W: Проблема при удалении файла /var/cache/apt/pkgcache.bin - RemoveCaches (13: Отказано в доступе)
+
+W: Проблема при удалении файла /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Отказано в доступе)
+
+user_1@gromov-o-VirtualBox:/home/gromov_o$ 
+
+user_1@gromov-o-VirtualBox:/home/gromov_o$ 
+
+user_1@gromov-o-VirtualBox:/home/gromov_o$ sudo apt-get update
+
+[sudo] пароль для user_1: 
+
+Сущ:1 http://ru.archive.ubuntu.com/ubuntu impish InRelease
+
+Пол:2 http://ru.archive.ubuntu.com/ubuntu impish-updates InRelease [110 kB]
+
+Пол:3 http://security.ubuntu.com/ubuntu impish-security InRelease [110 kB]
+
+Пол:4 http://ru.archive.ubuntu.com/ubuntu impish-backports InRelease [101 kB]
+
+Пол:5 http://ru.archive.ubuntu.com/ubuntu impish-updates/main amd64 Packages [187 kB]
+
+Пол:6 http://ru.archive.ubuntu.com/ubuntu impish-updates/main amd64 DEP-11 Metadata [18,9 kB]
+
+Пол:7 http://ru.archive.ubuntu.com/ubuntu impish-updates/main amd64 c-n-f Metadata [3 396 B]
+
+Пол:8 http://ru.archive.ubuntu.com/ubuntu impish-updates/universe i386 Packages [41,0 kB]
+
+Пол:9 http://ru.archive.ubuntu.com/ubuntu impish-updates/universe amd64 Packages [71,7 kB]
+
+Пол:10 http://ru.archive.ubuntu.com/ubuntu impish-updates/universe amd64 DEP-11 Metadata [4 488 B]
+
+Пол:11 http://ru.archive.ubuntu.com/ubuntu impish-updates/universe amd64 c-n-f Metadata [3 124 B]
+
+Пол:12 http://ru.archive.ubuntu.com/ubuntu impish-backports/universe amd64 DEP-11 Metadata [9 288 B]
+
+Пол:13 http://security.ubuntu.com/ubuntu impish-security/main amd64 Packages [115 kB]
+
+Пол:14 http://security.ubuntu.com/ubuntu impish-security/main amd64 DEP-11 Metadata [6 436 B]
+
+Пол:15 http://security.ubuntu.com/ubuntu impish-security/main DEP-11 48x48 Icons [7 290 B]
+
+Пол:16 http://security.ubuntu.com/ubuntu impish-security/main amd64 c-n-f Metadata [1 896 B]
+
+Пол:17 http://security.ubuntu.com/ubuntu impish-security/universe i386 Packages [28,1 kB]
+
+Пол:18 http://security.ubuntu.com/ubuntu impish-security/universe amd64 Packages [41,1 kB]
+
+Пол:19 http://security.ubuntu.com/ubuntu impish-security/universe amd64 DEP-11 Metadata [2 312 B]
+
+Пол:20 http://security.ubuntu.com/ubuntu impish-security/universe amd64 c-n-f Metadata [2 396 B]
+
+Получено 865 kB за 2с (481 kB/s)                                        
+
+Чтение списков пакетов… Готово
+
+user_1@gromov-o-VirtualBox:/home/gromov_o$ 
+
+user_1@gromov-o-VirtualBox:/home/gromov_o$ 
+
+user_1@gromov-o-VirtualBox:/home/gromov_o$ exit
+
+exit
+
+gromov_o@gromov-o-VirtualBox:~$
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ apt-get update
+
+Чтение списков пакетов… Готово
+
+E: Не удалось открыть файл блокировки /var/lib/apt/lists/lock - open (13: Отказано в доступе)
+
+E: Невозможно заблокировать каталог /var/lib/apt/lists/
+
+W: Проблема при удалении файла /var/cache/apt/pkgcache.bin - RemoveCaches (13: Отказано в доступе)
+
+W: Проблема при удалении файла /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Отказано в доступе)
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ apt-get upgrade
+
+E: Не удалось открыть файл блокировки /var/lib/dpkg/lock-frontend - open (13: Отказано в доступе)
+
+E: Невозможно получить блокировку внешнего интерфейса dpkg (/var/lib/dpkg/lock-frontend); у вас есть права суперпользователя?
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ whoami
+
+gromov_o
+
+gromov_o@gromov-o-VirtualBox:~$ groups gromov_o
+
+gromov_o : gromov_o adm cdrom sudo dip plugdev lpadmin lxd sambashare
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ sudo visudo 
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ sudo apt update
+
+Сущ:1 http://ru.archive.ubuntu.com/ubuntu impish InRelease
+
+Сущ:2 http://ru.archive.ubuntu.com/ubuntu impish-updates InRelease
+
+Сущ:3 http://ru.archive.ubuntu.com/ubuntu impish-backports InRelease              
+
+Сущ:4 http://security.ubuntu.com/ubuntu impish-security InRelease                 
+
+Чтение списков пакетов… Готово            
+
+Построение дерева зависимостей… Готово
+
+Чтение информации о состоянии… Готово         
+
+Все пакеты имеют последние версии.
+
+gromov_o@gromov-o-VirtualBox:~$ apt update
+
+Сущ:1 http://ru.archive.ubuntu.com/ubuntu impish InRelease                     
+
+Сущ:2 http://security.ubuntu.com/ubuntu impish-security InRelease              
+
+Сущ:3 http://ru.archive.ubuntu.com/ubuntu impish-updates InRelease
+
+Сущ:4 http://ru.archive.ubuntu.com/ubuntu impish-backports InRelease
+
+Чтение списков пакетов… Готово            
+
+Построение дерева зависимостей… Готово
+
+Чтение информации о состоянии… Готово         
+
+Все пакеты имеют последние версии.
+
+gromov_o@gromov-o-VirtualBox:~$ apt upgrade
+
+Чтение списков пакетов… Готово
+
+Построение дерева зависимостей… Готово
+
+Чтение информации о состоянии… Готово         
+
+Расчёт обновлений… Готово
+
+Обновлено 0 пакетов, установлено 0 новых пакетов, для удаления отмечено 0 пакетов, и 0 пакетов не обновлено.
+
+gromov_o@gromov-o-VirtualBox:~$ whoami
+
+gromov_o
+
+gromov_o@gromov-o-VirtualBox:~$ cat /etc/passwd | grep gromov_o
+
+gromov_o:x:1000:1000:gromov_o,,,:/home/gromov_o:/bin/bash
+
+gromov_o@gromov-o-VirtualBox:~$
+
+gromov_o@gromov-o-VirtualBox:~$ tail ~/.bashrc 
+
+# sources /etc/bash.bashrc).
+
+if ! shopt -oq posix; then
+
+  if [ -f /usr/share/bash-completion/bash_completion ]; then
+
+    . /usr/share/bash-completion/bash_completion
+
+  elif [ -f /etc/bash_completion ]; then
+
+    . /etc/bash_completion
+
+  fi
+
+fi
+
+
+
+alias apt='sudo apt'
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+gromov_o@gromov-o-VirtualBox:~$ sudo cat /etc/sudoers
+
+[sudo] пароль для gromov_o: 
+
+#
+
+# This file MUST be edited with the 'visudo' command as root.
+
+#
+
+# Please consider adding local content in /etc/sudoers.d/ instead of
+
+# directly modifying this file.
+
+#
+
+# See the man page for details on how to write a sudoers file.
+
+#
+
+Defaults	env_reset
+
+Defaults	mail_badpass
+
+Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
+
+
+
+# Host alias specification
+
+
+
+# User alias specification
+
+
+
+# Cmnd alias specification
+
+Cmnd_Alias	APT_CMD=/usr/bin/apt
+
+
+
+# User privilege specification
+
+root	ALL=(ALL:ALL) ALL
+
+
+
+# Members of the admin group may gain root privileges
+
+%admin ALL=(ALL) ALL
+
+
+
+# Allow members of group sudo to execute any command
+
+%sudo	ALL=(ALL:ALL) ALL
+
+
+
+# See sudoers(5) for more information on "@include" directives:
+
+
+
+@includedir /etc/sudoers.d
+
+
+
+gromov_o ALL=(ALL) NOPASSWD: APT_CMD
+
+gromov_o@gromov-o-VirtualBox:~$ 
+
+
+
+
+
+
+
